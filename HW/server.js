@@ -23,18 +23,19 @@ app.get('/api/notes', (req, res) => {
     res.send(db);
 });
 
-//add notes to db file
-app.post('/api/notes', (req, res) => {
-    console.log("adding notes", req.body)
-    db.push( {id: uuidv1(), title:req.body.title, text:req.body.text} );
-    fs.writeFileSync("db/db.json", JSON.stringify(db));
-    res.end();
-});
 
 //delete notes from the db file
 app.delete('/api/notes/:id', (req, res) => {
     let deleteNote = req.params.id;
     db = db.filter((note) => note.id != deleteNote);
+    res.end();
+});
+
+//add notes to db file
+app.post('/api/notes', (req, res) => {
+    console.log("adding notes", req.body)
+    db.push( {id: uuidv1(), title:req.body.title, text:req.body.text} );
+    fs.writeFileSync("db/db.json", JSON.stringify(db));
     res.end();
 });
 
