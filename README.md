@@ -2,12 +2,12 @@
 
 ## Table of Contents: 
 [Project Description](#Project-Description)  
-[Installation](#Installation)  
-[Usage Information](#Usage-Information)  
-[Contribution Guidelines](#Contribution-Guidelines)  
-[Test Instructions](#Test-Instructions)  
-[Licensing](#Licensing)  
+[Usage Information](#Usage-Information)   
 [Questions and Contact Information](#Questions-and-Contact-Information)  
+[Screenshots](#Screenshots)  
+[Heroku](#Heroku)  
+
+
 
 ## Project Description 
 This homework is a notw taker app that allows users to store notes on their website using a local host. Their notes are saved on the database. They can add notes, delete notes, and view past notes.
