@@ -26,5 +26,5 @@ Any Questions should be directed to me using the above contact information.
 ![code refactor](Assets/SS2.png)
 
 
-### Video Link of Application
-https://youtu.be/1zLjxOb4xdU
+### Heroku
+https://notetakerhw11alexgoldman.herokuapp.com/
