@@ -10,19 +10,10 @@
 [Questions and Contact Information](#Questions-and-Contact-Information)  
 
 ## Project Description 
-This homework is a command line application that prompts the user to add team members to an array. Once all team members are added, the user is promted to finish building their team and an HTML containing cards with employee information is generated.
-
-## Installation 
-N/A
+This homework is a notw taker app that allows users to store notes on their website using a local host. Their notes are saved on the database. They can add notes, delete notes, and view past notes.
 
 ## Usage Information 
-Please run this application from your command line.
-
-## Contribution Guidelines 
-N/A
-
-## Test Instructions 
-To test this application, run npm run test from your command line
+Please host this app on your local 8080 server and run it on your browser.
 
 ### Questions and Contact Information 
 Github: github.com/Alexgoldman98  
@@ -31,7 +22,9 @@ Email address: alexgoldman98@gmail.com
 Any Questions should be directed to me using the above contact information.
 
 ### Screenshots
-![code refactor](02-Homework/Assets/SS1.png)
+![code refactor](Assets/SS1.png)
+![code refactor](Assets/SS2.png)
+
 
 ### Video Link of Application
 https://youtu.be/1zLjxOb4xdU
