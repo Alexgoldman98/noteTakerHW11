@@ -15,22 +15,6 @@ app.use(express.json())
 
 const PORT = process.env.PORT || 8080;
 
-//use fs module to store and retrieve db
-
-//CREATE HTML ROUTES
-//`GET /notes` should return the `notes.html` file
-// app.get('/notes', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'public/notes.html'))
-//     console.log('notes', req.body)
-// });
-
-// //`GET *` should return the `index.html` file.
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'public/index.html'))
-//     console.log('notes', req.body)
-// });
-
-
 //CREATE API ROUTES
 //`GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
 //get notes from db file
